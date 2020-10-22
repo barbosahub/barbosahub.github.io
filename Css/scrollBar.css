@@ -1,0 +1,14 @@
+::-webkit-scrollbar              { /* 1  */ width: 7px;   background: #000; border-radius: 10px;  }
+::-webkit-scrollbar-button       { /* 2 Cor do quadradinho de cima */ display: none;  }
+::-webkit-scrollbar-track        { /* 3 linha */  background: #9400d3; }
+::-webkit-scrollbar-track-piece  { /* 4 background */  	background: #9400d3; 
+														background: -moz-linear-gradient(top, #000, #000); 
+														background: -webkit-linear-gradient(top, #000, #9400d3); /* 00feff azul bb*/ 
+														background: -o-linear-gradient(top, #fff, #9400d3); 
+														background: -ms-linear-gradient(top, #ff0000, #1e1e2f); 
+														background: linear-gradient(top, #ff0000, #1e1e2f);}
+
+::-webkit-scrollbar-thumb        { /* 5 cor da barra*/  background: #1e1e2f;  border-radius: 10px;}
+::-webkit-scrollbar-corner       { /* 6 caixinha de baixo*/  background: #000;  }
+::-webkit-resizer                { /* 7 caixinha de baixo para esticar*/  background: #000; }
+
