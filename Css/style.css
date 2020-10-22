@@ -187,6 +187,7 @@ section{
  }
 .View2_Div-link {
     width: 12%;
+    padding: 0;
 
 }
 .View2_Div-link h3{
@@ -292,14 +293,14 @@ img{
 		padding-top: 10vh;	
 	}
 	.View1_Div-link-machine{
-		font-size: 3vw;	
+		font-size: 3.5vw;	
 	}
 
 	.Title_View2{
 		font-size: 6vw;
 	}
 	.Subtitle_View2{
-		font-size: 4vw;
+		font-size: 5vw;
 		margin-bottom: 10vw;
 	
 	}

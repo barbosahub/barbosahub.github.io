@@ -107,11 +107,11 @@
 
 @media screen and (max-width: 480px){ 
  .chart{
-  width:40vw;
-  height:40vw;
+  width:30vw;
+  height:30vw;
   }
   .Title_skills{
-  font-size: 10vw;
+  font-size: 4vw;
   }
   .chart .value{
     font-size: 4vw;
