@@ -3,6 +3,19 @@
   justify-content: center;
 
 }
+
+
+.area:hover{
+    -webkit-transform:scale(0.9);
+    transform:scale(0.9);
+
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+
+  -webkit-filter: drop-shadow(10px 10px 25px rgba(30, 30, 47,.8));
+    filter: drop-shadow(58px 10px 25px rgba(30, 0, 47,.8));
+}
+
 .area button{
   
   border-radius:3px;
@@ -22,8 +35,8 @@
   width:5vw;
   height:5vw;
   
-  border-radius: 50%;
-  background-color: #222;
+  border-radius: 40%;
+  background:linear-gradient(to right,#a200ff,rgba(30,30,47,.8));
   
   overflow:hidden;
 }
@@ -46,7 +59,9 @@
   -webkit-animation-name: circled;
   -webkit-animation-duration: 1s;
   -webkit-animation-timing-function: linear;
-  background: #a200ff;
+
+  background:linear-gradient(to right,#a200ff,rgba(30,30,47,.8));
+  /*background: #a200ff;*/
 }
 
 .chart .cap{
@@ -56,11 +71,12 @@
   width: 100%;
   height: 100%;
   
-  transform: scale(.8);
+  transform: scale(.7);
   
   background-color: #333;
   margin: 0 auto;
   border-radius:50%;
+
   
   box-shadow: 2px 2px 10px rgba(0,0,0,.5);
 }
@@ -93,28 +109,28 @@
 /* ___________ max-width:760px ___________ */
 @media screen and (max-width:760px){
   .chart{
-  width:40vw;
-  height:40vw;
+  width:15vw;
+  height:15vw;
   }
    .Title_skills{
-  font-size: 4vw;
+  font-size: 3vw;
   }
   .chart .value{
-    font-size: 4vw;
+    font-size: 3vw;
   }
 }
 /* ___________ max-width:480px ___________ */
 
 @media screen and (max-width: 480px){ 
  .chart{
-  width:30vw;
-  height:30vw;
+  width:15vw;
+  height:15vw;
   }
   .Title_skills{
-  font-size: 4vw;
+  font-size: 3vw;
   }
   .chart .value{
-    font-size: 4vw;
+    font-size: 3vw;
   }
 }
 

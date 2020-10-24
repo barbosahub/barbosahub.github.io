@@ -19,15 +19,17 @@
 	<link rel="stylesheet" type="text/css" href="Css/scrollBar.css">
 	<link rel="stylesheet" type="text/css" href="Css/animate.css">
 	<link rel="stylesheet" type="text/css" href="Css/radialLoader.css">
+	<link rel="stylesheet" type="text/css" href="Css/floatwpp.css">
 </head>
 
 <!-- estrutura principal -->
 <body>
 	<div id="main">
+
 		<!-- ********* Cabeçalho **********  fixed-top-->
 		<header>
 			<!--Estilo da navbar-->
-			<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="box-shadow: 2px 2px 2px 1px rgba(127,63,191,0.2);background-color: #1e1e2f;">
+			<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="box-shadow: 2px 2px 2px 1px rgba(127,63,191,0.2);background-color: none">
 				  <a class="navbar-brand" href="#">
 				  		<img src="Img/favicon.png" width="40" alt="" loading="lazy">
 				  </a>
@@ -71,6 +73,8 @@
 						<a class="social-iconsimg" href="https://www.linkedin.com/in/brui/" target="_blank"><img src="Img/linkedin.svg" alt="..." id="img-linkedin"></a>
 						<a class="social-iconsimg" href="https://github.com/barbosahub" target="_blank"><img src="Img/github.svg" alt="..." id="img-github"></a>
 						<a class="social-iconsimg" href="https://www.instagram.com/ruijunior__/" target="_blank"><img src="Img/instagram.svg" alt="..." id="img-instagram"></a>
+
+
 					</ul>
 
 					<!-- ********* Div Direita ********** -->
@@ -92,25 +96,110 @@
 			</div>
 
 
-
-
 				<div id="View2">
 					<H1 class="Title_View2">Skills & Endorsements</H1>
-					<H1 class="Subtitle_View2">Programming Language:</H1>
-					<!-- ************************************************************************** Programming Language-->
+					<H1 class="Subtitle_View2">FrontEnd:</H1>
 					<li class="View2_Div" data-anime="left">
 						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">Java</h2>
+							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/HTML5" target="_blank" class="link-description" title="Html 5">Html 5</a></h2>
 							<div class="area">
 								<div class="chart">
-									<div class="radio_chart" id="radioChartContent"></div>
+									<div class="radio_chart" id="radioChartContent_Html"></div>
 									<div class="cap"></div>
-									<div class="value" id="percentValue">70%</div>
+									<div class="value" id="percentValue_Html">90%</div>
 								</div>
 							</div>	
 						</ul>						
 						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">C</h2>
+							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/CSS3" target="_blank" class="link-description" title="Css 3">Css 3</a></h2>
+							<div class="area">
+								<div class="chart">
+									<div class="radio_chart" id="radioChartContent_Css"></div>
+									<div class="cap"></div>
+									<div class="value" id="percentValue_Css">90%</div>
+								</div>
+							</div>	
+						</ul>
+						<ul class="View2_Div-link" >
+							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/JavaScript" target="_blank" class="link-description" title="JavaScript">JavaScript</a></h2>
+							<div class="area">
+								<div class="chart">
+									<div class="radio_chart" id="radioChartContent_Js"></div>
+									<div class="cap"></div>
+									<div class="value" id="percentValue_Js">60%</div>
+								</div>
+							</div>	
+						</ul>
+						<ul class="View2_Div-link" >
+							<h2 class="Title_skills"><a href="https://jquery.com/" target="_blank" class="link-description" title="JQuery">JQuery</a></h2>
+							<div class="area">
+								<div class="chart">
+									<div class="radio_chart" id="radioChartContent_Jq"></div>
+									<div class="cap"></div>
+									<div class="value" id="percentValue_Jq">60%</div>
+								</div>
+							</div>	
+						</ul>
+						<ul class="View2_Div-link" >
+						<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/Bootstrap_(framework_front-end)" target="_blank" class="link-description" title="Bootstrap">Bootstrap</a></h2>
+						<div class="area">
+							<div class="chart">
+								<div class="radio_chart" id="radioChartContent_Boo"></div>
+								<div class="cap"></div>
+								<div class="value" id="percentValue_Boo">80%</div>
+							</div>
+						</div>	
+						</ul>		
+						<ul class="View2_Div-link" >
+							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/WordPress" target="_blank" class="link-description" title="WordPress">WordPress</a></h2>
+							<div class="area">
+								<div class="chart">
+									<div class="radio_chart" id="radioChartContent_Wp"></div>
+									<div class="cap"></div>
+									<div class="value" id="percentValue_Wp">70%</div>
+								</div>
+							</div>	
+						</ul>	
+						<ul class="View2_Div-link" >
+							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/Otimiza%C3%A7%C3%A3o_para_motores_de_busca" target="_blank" class="link-description" title="SEO">SEO</a></h2>
+							<div class="area">
+								<div class="chart">
+									<div class="radio_chart" id="radioChartContent_Seo"></div>
+									<div class="cap"></div>
+									<div class="value" id="percentValue_Seo">60%</div>
+								</div>
+							</div>	
+						</ul>	
+						<ul class="View2_Div-link" >
+							<h2 class="Title_skills"><a href="https://en.wikipedia.org/wiki/User_experience" target="_blank" class="link-description" title="User Experience">UX</a></h2>
+							<div class="area">
+								<div class="chart">
+									<div class="radio_chart" id="radioChartContent_Ux"></div>
+									<div class="cap"></div>
+									<div class="value" id="percentValue_Ux">70%</div>
+								</div>
+							</div>	
+						</ul>	
+			
+					</li>
+
+
+					<!-- ************************************************************************** FrontEnd-->
+					<H1 class="Subtitle_View2">BackEnd:</H1>
+
+					<li class="View2_Div" data-anime="left">
+						<ul class="View2_Div-link" >
+							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o)" target="_blank" class="link-description" title="Java">Java</a></h2>
+							<div class="area">
+								<div class="chart">
+									<div class="radio_chart" id="radioChartContent_Jv"></div>
+									<div class="cap"></div>
+									<div class="value" id="percentValue_Jv">70%</div>
+								</div>
+							</div>	
+						</ul>						
+						<ul class="View2_Div-link" >
+							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/C_(linguagem_de_programa%C3%A7%C3%A3o)" target="_blank" class="link-description" title="C">C</a></h2>
 							<div class="area">
 								<div class="chart">
 									<div class="radio_chart" id="radioChartContent_C"></div>
@@ -120,7 +209,7 @@
 							</div>	
 						</ul>
 						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">C#</h2>
+							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/C_Sharp" target="_blank" class="link-description" title="C#">C#</a></h2>
 							<div class="area">
 								<div class="chart">
 									<div class="radio_chart" id="radioChartContent_CC"></div>
@@ -130,7 +219,7 @@
 							</div>	
 						</ul>
 						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">Python</h2>
+							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/Python" target="_blank" class="link-description" title="Python">Python</a></h2>
 							<div class="area">
 								<div class="chart">
 									<div class="radio_chart" id="radioChartContent_Py"></div>
@@ -140,216 +229,113 @@
 							</div>	
 						</ul>
 						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">Power Shell</h2>
+							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/PowerShell" target="_blank" class="link-description" title="Power Shell">Power Shell</a></h2>
 							<div class="area">
 								<div class="chart">
 									<div class="radio_chart" id="radioChartContent_Ps"></div>
 									<div class="cap"></div>
-									<div class="value" id="percentValue_Ps">0%</div>
+									<div class="value" id="percentValue_Ps">60%</div>
 								</div>
 							</div>	
 						</ul>
 						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">Visual Basic</h2>
+							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/Visual_Basic" target="_blank" class="link-description" title="Visual Basic">Visual Basic</a></h2>
 							<div class="area">
 								<div class="chart">
 									<div class="radio_chart" id="radioChartContent_Vb"></div>
 									<div class="cap"></div>
-									<div class="value" id="percentValue_Vb">0%</div>
+									<div class="value" id="percentValue_Vb">40%</div>
 								</div>
 							</div>	
 						</ul>
-					</li>	
-					<!-- ************************************************************************** WEB LANGUAGE-->
-					<H1 class="Subtitle_View2">Web Language:</H1>
 
-					<li class="View2_Div" data-anime="left">
 						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">Html 5</h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Html"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Html">0%</div>
-								</div>
-							</div>	
-						</ul>						
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">Css 3</h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Css"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Css">0%</div>
-								</div>
-							</div>	
-						</ul>
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">JavaScript/JQuery</h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Js"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Js">0%</div>
-								</div>
-							</div>	
-						</ul>
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">Asp.net</h2>
+							<h2 class="Title_skills"><a href="https://en.wikipedia.org/wiki/ASP.NET" target="_blank" class="link-description" title="Asp.net">Asp.net</a></h2>
 							<div class="area">
 								<div class="chart">
 									<div class="radio_chart" id="radioChartContent_Asp"></div>
 									<div class="cap"></div>
-									<div class="value" id="percentValue_Asp">0%</div>
+									<div class="value" id="percentValue_Asp">60%</div>
 								</div>
 							</div>	
 						</ul>
-					</li>	
-
-
-
-					<H1 class="Subtitle_View2">Web Framework:</H1>	
-					<li class="View2_Div" data-anime="left">
-					<!-- ********* Div Esquerda ********** -->
 						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">Bootstrap</h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Boo"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Boo">0%</div>
-								</div>
-							</div>	
-						</ul>						
-					</li>
-					<!-- ************************************************************************** DATABASES-->	
-					<H1 class="Subtitle_View2">Database:</H1>	
-					<li class="View2_Div" data-anime="left">
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">MySql</h2>
+							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/MySQL" target="_blank" class="link-description" title="My Sql">MySql</a></h2>
 							<div class="area">
 								<div class="chart">
 									<div class="radio_chart" id="radioChartContent_My"></div>
 									<div class="cap"></div>
-									<div class="value" id="percentValue_My">0%</div>
+									<div class="value" id="percentValue_My">70%</div>
 								</div>
 							</div>	
 						</ul>
 						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">Sql Server</h2>
+							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/Microsoft_SQL_Server" target="_blank" class="link-description" title="Sql Server">Sql Server</a></h2>
 							<div class="area">
 								<div class="chart">
 									<div class="radio_chart" id="radioChartContent_Sql"></div>
 									<div class="cap"></div>
-									<div class="value" id="percentValue_Sql">0%</div>
-								</div>
-							</div>	
-						</ul>						
-					</li>	
-					<!-- ************************************************************************** MOBILE-->	
-					<H1 class="Subtitle_View2">Mobile:</H1>	
-					<li class="View2_Div" data-anime="left">
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">Java</h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Jv"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Jv">0%</div>
-								</div>
-							</div>	
-						</ul>		
-					</li>	
-					<!-- ************************************************************************** Version Control-->	
-					<H1 class="Subtitle_View2">Version Control:</H1>	
-					<li class="View2_Div" data-anime="left">
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">TFS</h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Tfs"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Tfs">0%</div>
+									<div class="value" id="percentValue_Sql">80%</div>
 								</div>
 							</div>	
 						</ul>	
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">GitHub</h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Git"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Git">0%</div>
-								</div>
-							</div>	
-						</ul>		
 					</li>	
+
 					<!-- ************************************************************************** OTHER-->	
 					<H1 class="Subtitle_View2">Others:</H1>	
 					<li class="View2_Div" data-anime="left">
 						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">Sonarqube</h2>
+							<h2 class="Title_skills"><a href="https://en.wikipedia.org/wiki/Azure_DevOps_Server" target="_blank" class="link-description" title="Team Foundation Server">TFS</a></h2>
+							<div class="area">
+								<div class="chart">
+									<div class="radio_chart" id="radioChartContent_Tfs"></div>
+									<div class="cap"></div>
+									<div class="value" id="percentValue_Tfs">80%</div>
+								</div>
+							</div>	
+						</ul>	
+						<ul class="View2_Div-link" >
+							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/GitHub" target="_blank" class="link-description" title="GitHub">GitHub</a></h2>
+							<div class="area">
+								<div class="chart">
+									<div class="radio_chart" id="radioChartContent_Git"></div>
+									<div class="cap"></div>
+									<div class="value" id="percentValue_Git">80%</div>
+								</div>
+							</div>	
+						</ul>	
+						<ul class="View2_Div-link" >
+							<h2 class="Title_skills"><a href="https://en.wikipedia.org/wiki/SonarQube" target="_blank" class="link-description" title="Sonarqube">Sonarqube</a></h2>
 							<div class="area">
 								<div class="chart">
 									<div class="radio_chart" id="radioChartContent_Son"></div>
 									<div class="cap"></div>
-									<div class="value" id="percentValue_Son">0%</div>
+									<div class="value" id="percentValue_Son">60%</div>
 								</div>
 							</div>	
 						</ul>		
+						
 						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">WordPress</h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Wp"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Wp">0%</div>
-								</div>
-							</div>	
-						</ul>	
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">SEO</h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Seo"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Seo">0%</div>
-								</div>
-							</div>	
-						</ul>	
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">UX</h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Ux"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Ux">0%</div>
-								</div>
-							</div>	
-						</ul>
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">Scrum</h2>
+							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/Scrum_(desenvolvimento_de_software)" target="_blank" class="link-description" title="Scrum">Scrum</a></h2>
 							<div class="area">
 								<div class="chart">
 									<div class="radio_chart" id="radioChartContent_Sc"></div>
 									<div class="cap"></div>
-									<div class="value" id="percentValue_Sc">0%</div>
+									<div class="value" id="percentValue_Sc">60%</div>
 								</div>
 							</div>	
 						</ul>	
 						<ul class="View2_Div-link" >
-							<h2 class="Title_skills">Illustrator</h2>
+							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/Adobe_Illustrator" target="_blank" class="link-description" title="Illustrator">Illustrator</a></h2>
 							<div class="area">
 								<div class="chart">
 									<div class="radio_chart" id="radioChartContent_Il"></div>
 									<div class="cap"></div>
-									<div class="value" id="percentValue_Il">0%</div>
+									<div class="value" id="percentValue_Il">50%</div>
 								</div>
 							</div>	
 						</ul>		
 					</li>	
-
-
 				</div>
 
 
@@ -359,7 +345,10 @@
 
 		<!-- ********* Rodapé ********** -->
 		<footer>
-			
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+			<a href="https://api.whatsapp.com/send?phone=+5511963114242&text=What's up, dude?" class="float" target="_blank">
+			<i class="fa fa-whatsapp my-float"></i>
+			</a>
 		</footer>	
 	</div>
 
@@ -370,7 +359,7 @@
 	<script type="text/javascript" src="Js/scrollanimate.js"></script>
 	<script type="text/javascript" src="Js/jquery-3.5.1.min.js"></script>
 
-	<script type="text/javascript" src="Js/Loader/Html.js"></script>
+	<script type="text/javascript" src="Js/Loader/html.js"></script>
 	<script type="text/javascript">html(0)</script>
 
 
