@@ -12,8 +12,8 @@
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
 
-  -webkit-filter: drop-shadow(10px 10px 25px rgba(30, 30, 47,.8));
-    filter: drop-shadow(58px 10px 25px rgba(30, 0, 47,.8));
+  -webkit-filter: drop-shadow(10px 10px 15px rgba(30, 30, 47,.8));
+    filter: drop-shadow(15px 10px 15px rgba(30, 0, 47,.8));
 }
 
 .area button{
@@ -36,7 +36,7 @@
   height:5vw;
   
   border-radius: 40%;
-  background:linear-gradient(to right,#a200ff,rgba(30,30,47,.8));
+  background:linear-gradient(to right,#9302e6,rgba(30,30,47,.8));
   
   overflow:hidden;
 }
@@ -95,10 +95,10 @@
 }
 
 .Title_skills{
-  color: white;
+  color: var(--title-color);
   font-size: 1vw;
   text-align: center;
-  text-shadow: -2px -2px 5px #9a28fc, 2px 2px 5px #9a28fc, 0 0 50px #9a28fc;
+  text-shadow: var(--text-shadow);
 }
 
 

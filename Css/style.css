@@ -1,15 +1,10 @@
-/*
-	Folha de estilo do site
-	@author: "Rui Barbosa"
-*/
-
+/*	@author: "Rui Barbosa"	*/
 /********* Importando fontes **********/
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&family=Courier+Prime:wght@400;700&display=swap');
 /*	Fontes:
 			font-family: 'Archivo', sans-serif;
 			font-family: 'Courier Prime', monospace;
 */
-
 
 /********* Definição de Paleta de Cores **********
 	Background: #1e1e2f | Preto Azulado
@@ -18,15 +13,19 @@
 
 /********* Estrutura principal *********/
 body{
-	background-attachment: fixed; /*fixar background*/
-	/*https://media.giphy.com/media/xT8qBhrlNooHBYR9f2/giphy.gif*/
-	background:linear-gradient(to right,rgba(30,30,47,.8),rgba(30,30,47,.8)),
-	url("../Img/gif.gif");/*https://media.giphy.com/media/3og0IV7MOCfnm85iRa/giphy.gif*/ 
-		background-size: cover;
+	
+
+	/*background-attachment: fixed; /*fixar background*/
+
+	/*background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+*/
+	background:linear-gradient(to right,rgba(30,30,47,.1),rgba(30,30,47,.1)),
+	url("../Img/background2.png") ;
+		background-size: cover; /* manter o melhor tamanho possível sem repetições mesmo em telas grandes */
 		font-family: 'Courier Prime', monospace;
 		font-size: 1em;
-	}	
-
 }
 
 a{	color: #fff; }
@@ -38,8 +37,10 @@ section{
 
 /*Menu Hamburguer*/
 .navbar-light .navbar-toggler-icon{ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); } 
-
-
+#navbar{
+	box-shadow: 2px 2px 2px 1px rgba(127,63,191,0.2);
+	background-color: var(--Navbar-color);	
+}
 /* __________________________________________________ View 1 ____________________________________________________ */
 /* ___________ Icones Social ___________ */
 #social-icons{
@@ -49,29 +50,28 @@ section{
 #img-linkedin{
 	background-color: none;
 	width: 2em;
-  	animation: float 6s ease-in-out infinite;
+
 }
 #img-github{
 	background-color: none;
 	width: 2em;
-	animation: float 6s ease-in-out infinite;
+
 }
 #img-instagram{
 	background-color: none;
 	width: 2em;
-	animation: float 6s ease-in-out infinite;
 }
 #img-linkedin:hover{
-	-webkit-filter: drop-shadow(5px 10px 5px rgba(148, 0, 211,.7));
-    filter: drop-shadow(5px 10px 5px rgba(148, 0, 211,.7));
+	-webkit-filter: drop-shadow(5px 5px 5px rgba(148, 0, 211,.7));
+    filter: drop-shadow(5px 5px 5px rgba(148, 0, 211,.7));
 }
 #img-github:hover{
-	-webkit-filter: drop-shadow(5px 10px 5px rgba(148, 0, 211,.7));
-    filter: drop-shadow(5px 10px 5px rgba(148, 0, 211,.7));
+	-webkit-filter: drop-shadow(5px 5px 5px rgba(148, 0, 211,.7));
+    filter: drop-shadow(5px 5px 5px rgba(148, 0, 211,.7));
 }
 #img-instagram:hover{
-	-webkit-filter: drop-shadow(5px 10px 5px rgba(148, 0, 211,.7));
-    filter: drop-shadow(5px 10px 5px rgba(148, 0, 211,.7));
+	-webkit-filter: drop-shadow(5px 5px 5px rgba(148, 0, 211,.7));
+    filter: drop-shadow(5px 5px 5px rgba(148, 0, 211,.7));
 }
 
 @keyframes float{
@@ -88,10 +88,10 @@ section{
 
 /* ___________ Header 1 ___________ */
 #HeaderName{
-	color: #fff;
+	color: var(--HeaderName-color);
 	font-weight:500;
 	font-size: 5vw;
-	text-shadow: -2px -2px 5px #000, 2px 2px 5px #000, 0 0 50px #000;
+	text-shadow: var(--text-shadow);
 
 }
 #HeaderName:hover{
@@ -99,10 +99,11 @@ section{
     filter: drop-shadow(5px 10px 5px rgba(148, 0, 211,.4));
 }
 #HeaderLastName{
-	color: #9400d3;	
+	color: var(--HeaderLastName-color);	
 	font-weight:500;
 	font-size: 5vw;
-	text-shadow: -2px -2px 5px #000, 2px 2px 5px #000, 0 0 50px #000;
+	text-shadow: var(--text-shadow);
+
 }
 #HeaderLastName:hover{
 	-webkit-filter: drop-shadow(5px 10px 5px rgba(148, 0, 211,.4));
@@ -112,7 +113,7 @@ section{
 	color: #fff;	
 	font-weight:500;
 	font-size: 2vw;	
-	text-shadow: -2px -2px 5px #000, 2px 2px 5px #000, 0 0 50px #000;
+	text-shadow: var(--text-shadow);
 }
 #HeaderProfission:hover{
 	-webkit-filter: drop-shadow(5px 10px 5px rgba(148, 0, 211,.7));
@@ -123,7 +124,7 @@ section{
 	display: table-cell;
 	vertical-align: middle;
 
-	height: 90vh;
+	height: 100vh;
 	width: 100vw;
 }
 .View1_Div {
@@ -143,8 +144,9 @@ section{
     max-width: 580px;
     text-align: left;
 	font-family:'Courier New', Courier, monospace;
-    color: #fff;
+    color: var(--black-color);
     font-size: 1.3vw;
+
 }
 .View1_Div-link-machine:hover{
 	-webkit-filter: drop-shadow(10px 10px 5px rgba(148, 0, 211,.9));
@@ -152,8 +154,8 @@ section{
 }
 
 .span{
-	color: #9400d3;
-	font-weight:800;
+	color: var(--span-color);
+	font-weight:600;
 }
 
 
@@ -170,7 +172,8 @@ section{
 /* __________________________________________________ View 2 ____________________________________________________ */
 
 .Title_View2{
-	color: #fff;
+	color: var(--title-color);
+	text-shadow: var(--text-shadow);
 	font-weight:500;
 	font-size: 3vw;
 	margin-left: 2vw;
@@ -178,13 +181,13 @@ section{
 
 }
 .Subtitle_View2{
-	color: #9400d3;
+	color: var(--subtitle-color);
+	
 	font-weight:500;
 	font-size: 1.2vw;
 	margin-left: 2vw;
 	margin-bottom: 1vw;
 	margin-top: 1vw;
-	
 }
 
 
@@ -219,21 +222,6 @@ section{
 	-webkit-filter: drop-shadow(10px 10px 5px rgba(148, 0, 211,.9));
     filter: drop-shadow(10px 10px 5px rgba(148, 0, 211,.9));
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
