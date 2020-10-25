@@ -21,11 +21,17 @@ body{
 	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 
 */
-	background:linear-gradient(to right,rgba(30,30,47,.1),rgba(30,30,47,.1)),
-	url("../Img/background2.png") ;
-		background-size: cover; /* manter o melhor tamanho possível sem repetições mesmo em telas grandes */
-		font-family: 'Courier Prime', monospace;
-		font-size: 1em;
+	background: url(../Img/background2.svg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	font-family: 'Courier Prime', monospace;
+	font-size: 1em;
+
+
+
 }
 
 a{	color: #fff; }
@@ -91,7 +97,8 @@ section{
 	color: var(--HeaderName-color);
 	font-weight:500;
 	font-size: 5vw;
-	text-shadow: var(--text-shadow);
+
+
 
 }
 #HeaderName:hover{
@@ -102,18 +109,22 @@ section{
 	color: var(--HeaderLastName-color);	
 	font-weight:500;
 	font-size: 5vw;
-	text-shadow: var(--text-shadow);
+
 
 }
 #HeaderLastName:hover{
 	-webkit-filter: drop-shadow(5px 10px 5px rgba(148, 0, 211,.4));
     filter: drop-shadow(5px 10px 5px rgba(148, 0, 211,.4));
+
+
 }
 #HeaderProfission{
-	color: #fff;	
+	color: var(--Headerprofission-color);	
 	font-weight:500;
 	font-size: 2vw;	
-	text-shadow: var(--text-shadow);
+
+
+	
 }
 #HeaderProfission:hover{
 	-webkit-filter: drop-shadow(5px 10px 5px rgba(148, 0, 211,.7));
@@ -188,6 +199,7 @@ section{
 	margin-left: 2vw;
 	margin-bottom: 1vw;
 	margin-top: 1vw;
+	text-shadow: var(--text-shadow);
 }
 
 
@@ -277,6 +289,9 @@ img{
 	}
 	.View2_Div-link {
     	width: 25%;
+	}
+	#View2{
+	height: 150vh;
 	}
 	#HeaderName{
 		font-size: 15vw;
