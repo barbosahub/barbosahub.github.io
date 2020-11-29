@@ -237,22 +237,6 @@ section{
 
 
 
-/* __________________________________________________ FOOTER ____________________________________________________ */
-footer{
-
-
-}
-
-
-.iceberg{
-display: block;
-width: 100;
-height: 400;
-}
-#titanic{
-	float: none;
-}
-
 /* __________________________________________________ RESPONSIVE ____________________________________________________ */
 img{
 	max-width: 100%; /* todas as imagens do site ficam responsivas */
