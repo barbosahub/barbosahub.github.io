@@ -23,11 +23,32 @@ img{
 	max-width: 100%;
 }
 
+
+#img-github{
+	margin: 1em;
+	background-color: none;
+	width: 5em;
+}
+#img-github:hover{
+	transition: transform 1s;
+	transform: translateX(10px) scale(1.1);
+}
+
+#img-linkedin{
+	margin: 1em;
+	background-color: none;
+	width: 5em;
+}
+#img-linkedin:hover{
+	transition: transform 1s;
+	transform: translateX(10px) scale(1.1);
+}
+
 .navbar-light .navbar-toggler-icon{ 
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
 } 
 #navbar{
-	box-shadow: 1px 1px 2px 1px var(--white200);
+	box-shadow: 1px 1px 25px 1px var(--purple100);
 	background-color: var(--blue300);	
 	font-size: 1.25em;		
 }

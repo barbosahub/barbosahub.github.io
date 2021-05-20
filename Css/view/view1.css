@@ -1,5 +1,5 @@
 #img-rui{
-    filter: drop-shadow(10px 10px 10px var(--blue100));
+    filter: drop-shadow(5px 5px 5px var(--blue100));
 }
 #img-rui:hover{
     filter: drop-shadow(25px 25px 25px var(--blue100));
@@ -28,8 +28,8 @@
 	display: table-cell;
 	vertical-align: middle;
 	padding-top: 5vw; 
-	height: 70vh;
-	width: 98vw;
+	height: 90vh;
+	width: 100vw;
 }
 .View1_Div {
     display: flex;

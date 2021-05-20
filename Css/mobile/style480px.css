@@ -26,7 +26,6 @@ font-weight: 100;
 ____________________________________VIEW 2*/
 #View2{
 height: 80vh;
-width: 98vw;
 padding: 1em;
 text-align: center;
 }
@@ -55,8 +54,7 @@ width: var(--icons-skills480);
 ____________________________________VIEW 2*/
 #View3{
 	padding: 1em;
-	height: 210vh;
-	width: 98vw;
+	height: 240vh;
 	}
 
 .View3_Div {
@@ -64,7 +62,7 @@ ____________________________________VIEW 2*/
     flex-wrap: wrap;
 }
 .View3_Div-link {
-		width: 100vw;
+		width: 120vw;
 		padding: 0;
 }
 .View3_Div-link h3{
