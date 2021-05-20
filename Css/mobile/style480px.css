@@ -1,0 +1,91 @@
+/*
+____________________________________VIEW 1*/
+@media screen and (max-width: 480px){	
+#View1{	
+padding-top: 20vw; 
+}
+.View1_Div-link h1{
+padding-top: 1em;
+font-size: 2em;
+font-weight: 100;
+}
+.View1_Div-link img{
+width: 80vw;	
+}
+.View1_Div-link-machine{
+text-align: left;		
+color: var(--white200);
+font-weight: 100;
+}
+
+.View1_Div-link h3{
+font-size: 1.25em;
+font-weight: 100;
+}
+/*
+____________________________________VIEW 2*/
+#View2{
+height: 80vh;
+width: 98vw;
+padding: 1em;
+text-align: center;
+}
+.View2_Div-link h1{
+padding-top: 1em;
+font-size: 2em;
+font-weight: 100;
+}
+.View2_Div-link img{
+width: 80vw;	
+}
+.View2_Div-link-machine{
+max-width: 580px;
+text-align: left;
+color: #fff;
+font-size: 2em;
+}
+.View2_Div-link h3{
+font-size: 3em;
+font-weight: 100;
+}
+.View2_Div-link img{
+width: var(--icons-skills480);
+}
+/*
+____________________________________VIEW 2*/
+#View3{
+	padding: 1em;
+	height: 210vh;
+	width: 98vw;
+	}
+
+.View3_Div {
+    display: flex;
+    flex-wrap: wrap;
+}
+.View3_Div-link {
+		width: 100vw;
+		padding: 0;
+}
+.View3_Div-link h3{
+	font-size: 1.25em;
+	font-weight: 100;
+}
+
+.View3_Div-link-machine{
+    text-align: left;		
+    color: var(--white200);
+    font-size: 2em;
+		font-weight: 100;
+}
+
+.View3_Div-link li{
+	margin-left: 1em;
+	text-align: left;		
+	color: var(--white200);
+	font-size: 2em;
+	font-weight: 100;
+}
+}
+
+

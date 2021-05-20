@@ -1,0 +1,61 @@
+:root{
+
+
+	--blue200:#0D3285;
+	--blue100: #0C8FE7;
+	--blue300: #3b015294;
+
+	--white100:#fff; 
+	--white200: #f2f2f2;
+	
+	--icons-social: 3vw;
+
+	
+	--icons-skills: 5vw;
+	--icons-skills480: 15vw;
+
+
+	--Em1: 1em;
+	
+};
+
+.darkmodelabel{
+	cursor: pointer;
+	content: ' off';
+}
+
+.main{
+	position: absolute;
+	width: 100%;
+	height: 2vw;
+}
+
+#darkmodetoggle{
+	display: none;
+}
+#darkmodetoggle:checked + main {
+
+
+
+	--Navbar-color:none;
+	--black-color: #f2f2f2;
+	--title-color: #0C8FE7;
+
+
+
+	background-color: #f9f9f9;
+
+
+
+
+	--blue200:#131628;
+	--blue100: #0C8FE7;
+	--blue300: #131628;
+
+	--white100:#222831; 
+	--white200: #222831;
+
+
+	transition: .5s ease-in-out color, .5s ease-in-out background;
+}
+

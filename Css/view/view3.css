@@ -1,0 +1,43 @@
+#View3{
+	background-image: linear-gradient(rgba(133, 34, 100, 0.5), rgba(9, 8, 53, 0.9)),
+                  url("../../images/background3.svg");
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+	height: 180vh;
+	width: 98vw;
+
+	padding: 3em;
+	}
+
+.View3_Div {
+    display: flex;
+    flex-wrap: wrap;
+}
+.View3_Div-link {
+		width: 40vw;
+}
+.View3_Div-link h3{
+	font-size: 2em;
+	font-weight: 100;
+}
+.View3_Div-link img{
+	width: 30vw;	
+}
+.View3_Div-link-machine{
+		padding: 10px;
+    text-align: left;		
+    color: var(--white200);
+    font-size: 5em;
+		font-weight: 100;
+}
+
+.View3_Div-link li{
+	margin-left: 1em;
+	text-align: left;		
+	color: var(--white200);
+	font-size: 2em;
+	font-weight: 100;
+}

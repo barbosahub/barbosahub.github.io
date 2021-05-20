@@ -1,0 +1,39 @@
+#View2{
+	background-image: linear-gradient(rgba(9, 8, 53, 0.9),rgba(133, 34, 100, 0.5)),
+                  url("../../images/background2.svg");
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+	height: 90vh;
+	width: 98vw;
+
+	padding: 3vw;
+	text-align: center;
+	}
+.View2_Div {
+    display: flex;
+    flex-wrap: wrap;		
+ }
+.View2_Div-link {
+    width: 20%;
+    padding: 0;
+}
+.View2_Div-link h3{
+	font-size: 3vw;
+
+}
+.View2_Div-link img{
+	width: var(--icons-skills);
+}
+.View2_Div-link-machine{
+    max-width: 580px;
+    text-align: left;
+    color: #fff;
+    font-size: 3vw;
+}
+.View2_Div-link-machine:hover{
+	-webkit-filter: drop-shadow(10px 10px 5px rgba(148, 0, 211,.9));
+    filter: drop-shadow(10px 10px 5px rgba(148, 0, 211,.9));
+}

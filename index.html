@@ -2,44 +2,33 @@
 <html lang="pt-BR">
 
 <head>
-	<!-- A linha abaixo se refere a codificação do texto -->
 	<meta charset="UTF-8">
-	<title>BarbosaRui</title>
-	<!-- A linha abaixo cria um ícone no título -->
-	<!-- imagens/ (caminho para pasta de imagens) -->
-	<link rel ="icon" href="Img/favicon.png">
-	<!-- A linha abaixo descreve o site(página) para os mecanismos de pesquisa do google - máximo 160 caracteres) -->
-	<meta name=description content="Portifolio Rui Barbosa Developer">
-	<!-- a linha abaixo garante o padrão responsivo (view port) em todos os dispositivos -->
+	<title>Portifólio | Rui Barbosa</title>
+	<link rel ="icon" href="images/favicon.png">
+	<meta name=description content="Portifólio Rui Barbosa ">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- a linha abaixo faz o import do bootstrap -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-	<!-- link com a folha de estilo CSS -->
-	<link rel="stylesheet" type="text/css" href="Css/style.css">
-	<link rel="stylesheet" type="text/css" href="Css/scrollBar.css">
-	<link rel="stylesheet" type="text/css" href="Css/animate.css">
-	<link rel="stylesheet" type="text/css" href="Css/radialLoader.css">
-	<link rel="stylesheet" type="text/css" href="Css/floatwpp.css">
-	<link rel="stylesheet" type="text/css" href="Css/night.css">
 
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+	<!-- Views -->
+	<link rel="stylesheet" type="text/css" href="Css/view/views.css">
+	<link rel="stylesheet" type="text/css" href="Css/view/view1.css">
+	<link rel="stylesheet" type="text/css" href="Css/view/view2.css">
+	<link rel="stylesheet" type="text/css" href="Css/view/view3.css">
+	<!-- Mobile -->
+	<link rel="stylesheet" type="text/css" href="Css/mobile/style480px.css">
+	<link rel="stylesheet" type="text/css" href="Css/mobile/style760px.css">
+	<!-- Color -->
+	<link rel="stylesheet" type="text/css" href="Css/theme/colors.css">
+		<!-- Animate -->
+	<link rel="stylesheet" type="text/css" href="Css/animate.css">
 </head>
 
-<!-- estrutura principal -->
 <body >
-	<input type="checkbox" id="darkmodetoggle">
-	<main>
 
-		<!-- ********* Cabeçalho **********  fixed-top-->
 		<header>
-			<!--Estilo da navbar-->
-			<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
-
-				
-				
-				  <a class="navbar-brand" href="#">
-						<label for="darkmodetoggle" class="darkmodelabel"><img src="Img/brightness.svg" width="30" alt="" loading="lazy"></label>
-				  </a>
-
+			<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">				
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -48,311 +37,223 @@
 					<a class="navbar-brand" href="#"></a>
 					<ul class="navbar-nav  mt-2 mt-lg-0 " id="ulnav">
 						<li class="nav-item active ">
-							<a class="nav-link  text-white" href="#"><strong>.ABOUT()</strong></a>
+							<a class="nav-link  text-white" href="#"><strong>Sobre</strong></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-white" href="#"><strong>.WORK()</strong></a>
+							<a class="nav-link text-white" href="#">Projetos</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-white" href="#"><strong>.CONTACT()</strong></a>
+							<a class="nav-link text-white" href="https://api.whatsapp.com/send?phone=+5511963114242&text=
+							Olá Rui, cheguei até você atráves do seu Portifólio!" class="float" target="_blank">Whatsapp</a>
 						</li>
 					</ul>
 				</div>
 			</nav>
 		</header>
-		
-		<!-- ********* Menu ********** -->
-
-	
-		<!-- ********* Conteúdo ********** -->
+				<!-- ********* Conteúdo ********** -->
 		<section class="section" >	
 			<Br><BR>
 		
 			<div id="View1">
-				<li class="View1_Div" data-anime="left">
-					<!-- ********* Div Esquerda ********** -->
+				<li class="View1_Div" data-anime="left">					
 					<ul class="View1_Div-link">
-						<h1><span id="HeaderName">RUI</span> <span id="HeaderLastName">BARBOSA</span></h1>
-						<h3 id="HeaderProfission">SYSTEM ANALYST/DEVELOPER</h3>
-						<div class="col" id="social-icons">
-						<a class="social-iconsimg" href="https://www.linkedin.com/in/brui/" target="_blank"><img src="Img/linkedin.svg" alt="..." id="img-linkedin"></a>
-						<a class="social-iconsimg" href="https://github.com/barbosahub" target="_blank"><img src="Img/github.svg" alt="..." id="img-github"></a>
-						<a class="social-iconsimg" href="https://www.instagram.com/ruijunior__/" target="_blank"><img src="Img/instagram.svg" alt="..." id="img-instagram"></a>
-
-
-					</ul>
-
-					<!-- ********* Div Direita ********** -->
-					<ul class="View1_Div-link">
-						  <h1 class="View1_Div-link-machine"> { </h1>
-						  <h1 class="View1_Div-link-machine">&nbsp; &nbsp;"author": <span class="span">"Rui Barbosa"</span>,</h1>
-						  <h1 class="View1_Div-link-machine">&nbsp; &nbsp;"profession": <span class="span"> "Developer"</span>, </h1>
-						  <h1 class="View1_Div-link-machine">&nbsp; &nbsp;"description": <span class="span"> "I'm a Software Developer"</span> </h1>		
-						  <h1 class="View1_Div-link-machine"> } </h1>			
-						  <h1 class="View1_Div-link-machine"> { </h1>
-						  <h1 class="View1_Div-link-machine">&nbsp; &nbsp;"resume":[ </h1>	
-						  <h1 class="View1_Div-link-machine">&nbsp; &nbsp;<span class="span"> "2020 | Junior System Analyst"</span>,</h1>	
-						  <h1 class="View1_Div-link-machine">&nbsp; &nbsp;<span class="span"> "2019 | Developer"</span>,</h1>	
-						  <h1 class="View1_Div-link-machine">&nbsp; &nbsp;<span class="span"> "2018 | Support Analyst"</span> </h1>	
-						  <h1 class="View1_Div-link-machine">&nbsp; &nbsp; ] </h1>	  
-						  <h1 class="View1_Div-link-machine"> } </h1>	
-					</ul>
+						<img src="images/head.svg" alt="..." id="img-rui" ></a>
+				</ul>
+					
+					<ul class="View1_Div-link">						
+							<h1 class="View1_Div-link-machine">Eu sou <span class="span">Rui Barbosa</span></h1>
+						  <h3 class="View1_Div-link-machine">Desenvolvedor mobile/back-end.</h3>							
+							<h3 class="View1_Div-link-machine">Sou Desenvolvedor de software com foco em mobile, também atuo em back-end com diversas tecnologias. <br>Ah, claro não podemos esquecer habilidade em hambúrger artesanal.</h3>							
+						</ul>
 				</li>				
 			</div>
 
 
+
+
+
 				<div id="View2">
-					<H1 class="Title_View2">Skills & Endorsements</H1>
-					<H1 class="Subtitle_View2">FrontEnd:</H1>
+					<h1 class="View2_Div-link-machine"><span class="span">Conhecimentos</span></h1>
+					 <Br><Br><Br>
 					<li class="View2_Div" data-anime="left">
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/HTML5" target="_blank" class="link-description" title="Html 5">Html 5</a></h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Html"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Html">90%</div>
-								</div>
-							</div>	
-						</ul>						
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/CSS3" target="_blank" class="link-description" title="Css 3">Css 3</a></h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Css"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Css">90%</div>
-								</div>
-							</div>	
-						</ul>
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/JavaScript" target="_blank" class="link-description" title="JavaScript">JavaScript</a></h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Js"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Js">60%</div>
-								</div>
-							</div>	
-						</ul>
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills"><a href="https://jquery.com/" target="_blank" class="link-description" title="JQuery">JQuery</a></h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Jq"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Jq">60%</div>
-								</div>
-							</div>	
-						</ul>
-						<ul class="View2_Div-link" >
-						<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/Bootstrap_(framework_front-end)" target="_blank" class="link-description" title="Bootstrap">Bootstrap</a></h2>
-						<div class="area">
-							<div class="chart">
-								<div class="radio_chart" id="radioChartContent_Boo"></div>
-								<div class="cap"></div>
-								<div class="value" id="percentValue_Boo">80%</div>
-							</div>
-						</div>	
-						</ul>		
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/WordPress" target="_blank" class="link-description" title="WordPress">WordPress</a></h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Wp"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Wp">70%</div>
-								</div>
-							</div>	
-						</ul>	
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/Otimiza%C3%A7%C3%A3o_para_motores_de_busca" target="_blank" class="link-description" title="SEO">SEO</a></h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Seo"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Seo">60%</div>
-								</div>
-							</div>	
-						</ul>	
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills"><a href="https://en.wikipedia.org/wiki/User_experience" target="_blank" class="link-description" title="User Experience">UX</a></h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Ux"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Ux">70%</div>
-								</div>
-							</div>	
-						</ul>	
-			
-					</li>
-
-
-					<!-- ************************************************************************** FrontEnd-->
-					<H1 class="Subtitle_View2">BackEnd:</H1>
-
-					<li class="View2_Div" data-anime="left">
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o)" target="_blank" class="link-description" title="Java">Java</a></h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Jv"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Jv">70%</div>
-								</div>
-							</div>	
-						</ul>						
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/C_(linguagem_de_programa%C3%A7%C3%A3o)" target="_blank" class="link-description" title="C">C</a></h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_C"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_C">50%</div>
-								</div>
-							</div>	
-						</ul>
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/C_Sharp" target="_blank" class="link-description" title="C#">C#</a></h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_CC"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_CC">60%</div>
-								</div>
-							</div>	
-						</ul>
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/Python" target="_blank" class="link-description" title="Python">Python</a></h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Py"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Py">40%</div>
-								</div>
-							</div>	
-						</ul>
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/PowerShell" target="_blank" class="link-description" title="Power Shell">Power Shell</a></h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Ps"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Ps">60%</div>
-								</div>
-							</div>	
-						</ul>
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/Visual_Basic" target="_blank" class="link-description" title="Visual Basic">Visual Basic</a></h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Vb"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Vb">40%</div>
-								</div>
-							</div>	
-						</ul>
 
 						<ul class="View2_Div-link" >
-							<h2 class="Title_skills"><a href="https://en.wikipedia.org/wiki/ASP.NET" target="_blank" class="link-description" title="Asp.net">Asp.net</a></h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Asp"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Asp">60%</div>
-								</div>
-							</div>	
-						</ul>
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/MySQL" target="_blank" class="link-description" title="My Sql">MySql</a></h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_My"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_My">70%</div>
-								</div>
-							</div>	
-						</ul>
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/Microsoft_SQL_Server" target="_blank" class="link-description" title="Sql Server">Sql Server</a></h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Sql"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Sql">80%</div>
-								</div>
+							<div class="area">						
+									<img src="images/android.svg">						
 							</div>	
 						</ul>	
-					</li>	
 
-					<!-- ************************************************************************** OTHER-->	
-					<H1 class="Subtitle_View2">Others:</H1>	
-					<li class="View2_Div" data-anime="left">
 						<ul class="View2_Div-link" >
-							<h2 class="Title_skills"><a href="https://en.wikipedia.org/wiki/Azure_DevOps_Server" target="_blank" class="link-description" title="Team Foundation Server">TFS</a></h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Tfs"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Tfs">80%</div>
-								</div>
-							</div>	
-						</ul>	
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/GitHub" target="_blank" class="link-description" title="GitHub">GitHub</a></h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Git"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Git">80%</div>
-								</div>
-							</div>	
-						</ul>	
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills"><a href="https://en.wikipedia.org/wiki/SonarQube" target="_blank" class="link-description" title="Sonarqube">Sonarqube</a></h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Son"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Son">60%</div>
-								</div>
+							<div class="area">						
+									<img src="images/kotlin.svg">						
 							</div>	
 						</ul>		
+
+						<ul class="View2_Div-link" >
+							<div class="area">						
+									<img src="images/java.svg">						
+							</div>	
+						</ul>		
+
+						<ul class="View2_Div-link" >
+							<div class="area">						
+									<img src="images/flutter.svg">						
+							</div>	
+						</ul>	
+
+						<ul class="View2_Div-link" >
+							<div class="area">						
+									<img src="images/dart.svg">						
+							</div>	
+						</ul>	
+
+						<ul class="View2_Div-link" >
+							<div class="area">						
+									<img src="images/appium.svg">						
+							</div>	
+						</ul>	
 						
 						<ul class="View2_Div-link" >
-							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/Scrum_(desenvolvimento_de_software)" target="_blank" class="link-description" title="Scrum">Scrum</a></h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Sc"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Sc">60%</div>
-								</div>
-							</div>	
-						</ul>	
-						<ul class="View2_Div-link" >
-							<h2 class="Title_skills"><a href="https://pt.wikipedia.org/wiki/Adobe_Illustrator" target="_blank" class="link-description" title="Illustrator">Illustrator</a></h2>
-							<div class="area">
-								<div class="chart">
-									<div class="radio_chart" id="radioChartContent_Il"></div>
-									<div class="cap"></div>
-									<div class="value" id="percentValue_Il">50%</div>
-								</div>
+							<div class="area">						
+									<img src="images/csharp.svg">						
 							</div>	
 						</ul>		
-					</li>	
-				</div>
-			
-		</section>
-		
 
-		<!-- ********* Rodapé ********** -->
-		<footer>
-			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-			<a href="https://api.whatsapp.com/send?phone=+5511963114242&text=What's up, dude?" class="float" target="_blank">
-			<i class="fa fa-whatsapp my-float"></i>
-			</a>
-		</footer>	
+						<ul class="View2_Div-link" >
+							<div class="area">						
+									<img src="images/dotnet.svg">						
+							</div>	
+						</ul>		
+
+												<ul class="View2_Div-link" >
+							<div class="area">						
+									<img src="images/bootstrap.svg">						
+							</div>	
+						</ul>	
+
+	
+	
+							<ul class="View2_Div-link" >
+							<div class="area">						
+									<img src="images/html.svg">						
+							</div>	
+						</ul>	
+	
+							<ul class="View2_Div-link" >
+							<div class="area">						
+									<img src="images/css.svg">						
+							</div>	
+						</ul>	
+	
+							<ul class="View2_Div-link" >
+							<div class="area">						
+									<img src="images/javascript.svg">						
+							</div>	
+						</ul>	
+
+
+						<ul class="View2_Div-link" >
+							<div class="area">						
+									<img src="images/tfs.svg">						
+							</div>	
+						</ul>	
+	
+							<ul class="View2_Div-link" >
+							<div class="area">						
+									<img src="images/github.svg">						
+							</div>	
+						</ul>	
+
+
+
+						<ul class="View2_Div-link" >
+							<div class="area">						
+									<img src="images/sql.png">						
+							</div>	
+						</ul>					   
+
+						<ul class="View2_Div-link" >
+							<div class="area">						
+									<img src="images/mongodb.svg">						
+							</div>	
+						</ul>
+
+						<ul class="View2_Div-link" >
+							<div class="area">						
+									<img src="images/burguer.svg" title="just a hamburger" alt="icon hamburger">						
+							</div>	
+						</ul>			
+					</li> 
+				</div>		
+
+				<div id="View3">
+					<li class="View3_Div" data-anime="left">	
+
+						<ul class="View3_Div-link">
+							<h1 class="View3_Div-link-machine"><span class="span">Educação</span></h1>
+							<h3 class="View3_Div-link-machine">MBA | Engenharia de Software - Faculdade Impacta Tecnologia</h3>														
+							<h3 class="View3_Div-link-machine">Técnologo | Análise e Desenvolvimento de Sistemas - Universidade Cidade de São Paulo</h3>														
+					</ul>
+						
+						<ul class="View3_Div-link">						
+								<h1 class="View3_Div-link-machine"><span class="span">Experiência</span></h1>
+								<h3 class="View3_Div-link-machine">Valemobi | Período 05/21 - Atual: Desenvolvedor Android</h3>														
+								<h3 class="View3_Div-link-machine">Brink's Inc | Período 09/20 - 05/21: Analista de Sistemas Jr</h3>														
+								<h3 class="View3_Div-link-machine">Global System | Período 10/19 - 08/20: Desenvolvedor </h3>														
+								<h3 class="View3_Div-link-machine">Darwin Engenharia | Período 08/18 - 09/19: Suporte de Sistemas</h3>														
+							</ul>
+
+							 <ul class="View3_Div-link">
+								<h1 class="View3_Div-link-machine"><span class="span">Cursos</span></h1>
+								<h3 class="View3_Div-link-machine"><b>2021 | </b><br>									
+																																								<b>Digital Innovation One</b> - Bootcamp Kotlin Developer,<br> 
+																																									Bootcamp Code Anywhere (Spring Boot, Spring Cloud e Azure),<br> 
+																																								<b>IGTI</b> - Bootcamp Mobile Apps. (Java, React Native e Flutter),<br> 
+																																								<b>Rocketseat</b> - Nextlevelweek#05 Flutter,<br> 
+																																									<b>Alura</b> - Appium: Testes de interface, 
+																																																				JUnit - Testes automatizados e TDD, 
+																																																				Persistência de dados com Room, 
+																																																				Retrofit2, 
+																																																				Spring boot.
+																																								<br><br>
+																																								<b>2020 | </b><br>	
+																																								<b>Alura</b> - .Net & MongoDB, 
+																																																					 Swagger documentação APIs Rest, 
+																																																					 Kotlin, 
+																																																					 Modelagem ETL, 
+																																																					 GitHub, 
+																																																					 Bootstrap 4, 
+																																																					 Css Flexbox.
+																																									<b>Impacta</b> - Android Developer.
+																																																					 
+																																									<br><br>
+																																									<b>2019 | </b><br>	
+																																									<b>Senai</b> - Desvendando a Blockchain, 
+																																																					  Lógica de Programação.
+																																									<br><br>
+																																									<b>2018 | </b><br>	
+																																									<b>Senac</b> - Html5 & Css3, 
+																																																						 Gerenciamento de sites WordPress, 
+																																																						 Java Script & jQuery.
+							   </h3>			
+																																								 								
+								
+						</ul> 
+
+					<ul class="View3_Div-link">
+							<h1 class="View3_Div-link-machine"><span class="span">Redes Sociais</span></h1>
+							<h3 class="View3_Div-link-machine">MBA | Engenharia de Software - Faculdade Impacta Tecnologia</h3>														
+							<h3 class="View3_Div-link-machine">Técnologo | Análise de Sistemas - Universidade Cidade de São Paulo</h3>														
+					</ul> -
+							
+					</li>			
+				</div>
+
+
+		</section>
+						
+
+
 	</main>
 	<!-- SCRIPTS -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
