@@ -1,16 +1,15 @@
 @media (min-width: 768px) and (max-width: 1024px) {
-    
+
 #View1{	 
-  padding-top: 10vw; 
-  height: 120vh;
+  padding-top: 1vw; 
+  height: 40vh;
   }
   .View1_Div-link h1{
-  padding-top: 1em;
-  font-size: 5em;
+  font-size: 3em;
   font-weight: 100;
   }
   .View1_Div-link img{
-  width: 90vw;	
+  width: 40vw;	
   }
   .View1_Div-link-machine{
   text-align: left;		
@@ -19,22 +18,22 @@
   }
   
   .View1_Div-link h3{
-  font-size: 4em;
+  font-size: 2em;
   font-weight: 100;
   }
   .View1_Div-link {
-    width: 100vw;
+    width:40vw;
   }
   /*
   ____________________________________VIEW 2*/
   #View2{
-  height: 60vh;
+  height: 80vh;
   padding: 1em;
   text-align: center;
   }
   .View2_Div-link h1{
   padding-top: 1em;
-  font-size: 5em;
+  font-size: 3em;
   font-weight: 100;
   }
   .View2_Div-link img{
@@ -44,10 +43,10 @@
   max-width: 580px;
   text-align: left;
   color: #fff;
-  font-size: 5em;
+  font-size: 3em;
   }
   .View2_Div-link h3{
-  font-size: 5em;
+  font-size: 3em;
   font-weight: 100;
   }
   .View2_Div-link img{
@@ -57,7 +56,7 @@
   ____________________________________VIEW 2*/
   #View3{
     padding: 1em;
-    height: 240vh;
+    height: 300vh;
     }
   
   .View3_Div {
@@ -69,14 +68,14 @@
       padding: 0;
   }
   .View3_Div-link h3{
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 100;
   }
   
   .View3_Div-link-machine{
       text-align: left;		
       color: var(--white200);
-      font-size: 5em;
+      font-size: 3em;
       font-weight: 100;
   }
   
@@ -87,11 +86,5 @@
     font-size: 2em;
     font-weight: 100;
   }
-  /*
-____________________________________NavBar*/
-#navbar{
-	font-size: 2.75em;	
-  padding: 1em;
-}
 }
   
