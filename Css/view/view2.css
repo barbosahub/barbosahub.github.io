@@ -19,7 +19,7 @@
     padding: 0;
 }
 .View2_Div-link h3{
-	font-size: 3vw;
+		font-size: 2em;
 
 }
 .View2_Div-link img{
@@ -29,9 +29,6 @@
     max-width: 580px;
     text-align: left;
     color: #fff;
-    font-size: 3vw;
-}
-.View2_Div-link-machine:hover{
-	-webkit-filter: drop-shadow(10px 10px 5px rgba(148, 0, 211,.9));
-    filter: drop-shadow(10px 10px 5px rgba(148, 0, 211,.9));
+	font-size: 5em;   
+    font-weight: 100;
 }

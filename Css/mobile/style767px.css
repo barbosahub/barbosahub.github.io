@@ -1,11 +1,7 @@
-/*
-____________________________________VIEW 1*/
-@media (min-width: 280px) and (max-width: 480px) {
+@media (min-width: 481px) and (max-width: 767px) {
 
 #View1{	
-
 padding-top: 20vw; 
-background-color: green;
 }
 .View1_Div-link h1{
 padding-top: 1em;
@@ -26,7 +22,7 @@ font-size: 1.25em;
 font-weight: 100;
 }
 .View1_Div-link {
-	width: 90vw;
+	width: 100vw;
 }
 /*
 ____________________________________VIEW 2*/
@@ -90,8 +86,4 @@ ____________________________________VIEW 2*/
 	font-size: 2em;
 	font-weight: 100;
 }
-
-
 }
-
-

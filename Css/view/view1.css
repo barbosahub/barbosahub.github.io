@@ -3,7 +3,6 @@
 }
 #img-rui:hover{
     filter: drop-shadow(25px 25px 25px var(--blue100));
-	
 }
 
 @keyframes float{
@@ -19,7 +18,7 @@
 
 #View1{	
 	background-image: linear-gradient(rgba(133, 34, 100, 0.5), rgba(9, 8, 53, 0.9)),
-                  url("../../images/background1.svg");
+                  url("../../images/background1.svg"); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -27,7 +27,7 @@ img{
 #img-github{
 	margin: 1em;
 	background-color: none;
-	width: 5em;
+  width: var(--icons-skills1024);
 }
 #img-github:hover{
 	transition: transform 1s;
@@ -37,7 +37,7 @@ img{
 #img-linkedin{
 	margin: 1em;
 	background-color: none;
-	width: 5em;
+  width: var(--icons-skills1024);
 }
 #img-linkedin:hover{
 	transition: transform 1s;
